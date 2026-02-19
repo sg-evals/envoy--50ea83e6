@@ -1,10 +1,10 @@
 module example.com/property
 
-go 1.20
+go 1.23
 
 require (
 	github.com/envoyproxy/envoy v1.24.0
-	google.golang.org/protobuf v1.33.0
+	google.golang.org/protobuf v1.36.11
 )
 
 replace github.com/envoyproxy/envoy => ../../../../../../../
