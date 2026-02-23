@@ -30,7 +30,7 @@ jobs:
     timeout-minutes: 120
     steps:
     - name: Checkout repository
-      uses: actions/checkout@9bb56186c3b09b4f86b1c65136769dd318469633  # v4.1.2
+      uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
     - name: Add safe directory
       run: git config --global --add safe.directory /__w/envoy/envoy
     - name: 'Run GcpTrafficDirectorIntegrationTest'
